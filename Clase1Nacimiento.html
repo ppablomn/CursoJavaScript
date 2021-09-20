@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Desafío 1</title>
+</head>
+<body>
+    <script>
+
+        const nombre = prompt ("Bienvenido/a a CinemaCoder, ¿cuál es tu nombre?");
+        const añoDeNacimiento = parseInt(prompt("Por favor indica tu año de nacimiento"));
+        let añoActual = 2021;
+        let edad = añoActual - añoDeNacimiento;
+        
+        if(edad < 18){
+        alert("Hola " + nombre + "! Aún no tienes edad suficiente para ingresar a nuestro cine.");
+        }
+        else
+        { alert("Hola " + nombre + "! Eres mayor de edad, puedes sacar tickets.");}    
+        
+        
+        </script>
+    
+</body>
+</html>
